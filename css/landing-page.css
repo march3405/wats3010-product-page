@@ -38,7 +38,7 @@ header.masthead .overlay {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 10rem;
 }
 header.masthead p {
   color:white;
@@ -53,7 +53,7 @@ header.masthead p {
   header.masthead h1 {
     font-size: 3rem;
   }
-  p.PA1 {color:red}
+  
 }
 
 .showcase .showcase-text {
@@ -109,7 +109,7 @@ header.masthead p {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/kc.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -134,4 +134,5 @@ footer.footer {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: Helvetica;
+    letter-spacing: 2px;
 }
