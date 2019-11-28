@@ -68,7 +68,7 @@ ul {
 }
 
 .mt60 {
-	margin-top: 70px;
+	margin-top: 20px;
 }
 
 .mr20 {
@@ -95,39 +95,29 @@ ul {
 .spad {
 	padding-top: 95px;
 	padding-bottom: 95px;
+	background-color: #b7ff04;
 }
 
 .section-title {
 	text-align: center;
-	margin-bottom: 90px;
+	margin-bottom: 20px;
 	padding-top: 50px;
 	position: relative;
 }
 
 .section-title h2 {
 	text-transform: uppercase;
-	color: #fff;
-	font-weight: 400;
+    color: white;
+    font-weight: 400;
+    float: left;
 }
 
 .section-title h2 span {
-	background: #2be6ab;
-	padding: 0 3px 5px;
-	display: inline-block;
-	color: #0b1033;
+	background: #b7ff04;
+    padding: 0 3px 5px;
+    display: inline-block;
+    color: BLACK;
 }
-
-.section-title:after {
-	content: "";
-	position: absolute;
-	left: 50%;
-	top: 0;
-	width: 5px;
-	height: 30px;
-	margin-left: -2.5px;
-	background: #2be6ab;
-}
-
 .section-title.left {
 	text-align: left;
 }
@@ -148,10 +138,10 @@ ul {
 .site-btn {
 	font-family: "Oswald", sans-serif;
 	font-size: 15px;
-	color: #641fb1;
+	color: black;
 	display: inline-block;
 	text-transform: uppercase;
-	background: #2be6ab;
+	background: #b7ff04;
 	padding: 15px 50px;
 	font-weight: 500;
 	letter-spacing: 1px;
@@ -278,24 +268,34 @@ ul {
 /*------------------------
 	About section
 --------------------------*/
-.about-section,
-.team-section {
-	background: #6a23b5;
-	position: relative;
-	z-index: 2;
+.mb-4{
+	padding-left: 26px;
+    width: 130%;
 }
+.site-section {
+	padding: 2.5em 0; }
+	@media (min-width: 768px) {
+	  .site-section {
+		padding: 5em 0; } }
+	.site-section.site-section-sm {
+	  padding: 4em 0; }
 
-.overlay {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
-	z-index: 3;
-	background-image: url("../img/overlay.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+	  .img-fluid{
+		outline: 2px solid black;
+		outline-offset: -9px;
+	  }
+  
+  .site-section-heading {
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+	position: relative;
+	font-size: 2.5rem; }
+	@media (min-width: 768px) {
+	  .site-section-heading {
+		font-size: 3rem; } }
+  
+  .border-top {
+	border-top: 1px solid #edf0f5 !important; }
 
 /*Card Section*/
 .card-section {
@@ -312,10 +312,17 @@ ul {
 	text-align: center;
 	background: #f5faf8;
 	-webkit-box-shadow: 0 0 8px rgba(74, 74, 74, 0.1);
-	        box-shadow: 0 0 8px rgba(74, 74, 74, 0.1);
+	box-shadow: 0 0 8px rgba(74, 74, 74, 0.1);
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
+
+}
+.lab-card img{
+    outline: 2px solid black;
+    outline-offset: -9px;
+}
+
 }
 
 .lab-card .icon {
@@ -328,12 +335,13 @@ ul {
 
 .lab-card h2 {
 	text-transform: uppercase;
-	font-size: 18px;
-	color: #2b1640;
-	margin-bottom: 30px;
+	font-size: 20px;
+	color: b7ff04;
+	margin-bottom: 20px;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
+	padding-top:20px;
 }
 
 .lab-card p {
@@ -356,12 +364,13 @@ ul {
 
 /* About contant */
 .about-contant {
-	position: relative;
-	z-index: 5;
+		position: relative;
+		z-index: 5;
+		background-color: white;
 }
 
 .about-contant p {
-	color: #fff;
+	color: black;
 }
 
 .intro-video {
@@ -397,40 +406,29 @@ ul {
   Testimonial section
 --------------------------*/
 .testimonial-section {
-	padding-top: 320px;
-	background: #220c3b;
+	padding-top: 30px;
+	background: black;
 	position: relative;
-}
-
-.test-overlay {
-	position: absolute;
-	background-image: url("../img/test-man.png");
-	background-repeat: no-repeat;
-	background-position: bottom right;
-	background-size: contain;
-	bottom: 0;
-	height: 78%;
-	left: 50px;
 }
 
 .testimonial span {
 	display: block;
 	font-family: "Roboto", sans-serif;
 	font-size: 48px;
-	color: #6a23b5;
+	color: #b7ff04;
 }
 
 .testimonial p {
-	font-style: italic;
-	color: #fff;
-	font-weight: 400;
-	line-height: 36px;
+	font-style: normal;
+    color: #fff;
+    font-weight: 100;
+    line-height: 30px;
+    font-size: 14px;
 }
 
 .testimonial .avatar {
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
+	width: 362px;
+	height: 271px;
 	overflow: hidden;
 	float: left;
 	margin-right: 20px;
@@ -441,8 +439,10 @@ ul {
 }
 
 .testimonial .client-name {
-	float: left;
-	padding-top: 20px;
+	font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 383px;
 }
 
 .testimonial .client-name h2 {
@@ -486,7 +486,7 @@ ul {
 	content: "";
 	width: 28px;
 	height: 28px;
-	border: 2px solid #6a23b5;
+	border: 2px solid #b7ff04;
 	border-radius: 40px;
 	left: -10px;
 	top: -10px;
@@ -499,7 +499,7 @@ ul {
 }
 
 #testimonial-slide .owl-dots .owl-dot.active {
-	background: #6a23b5;
+	background: #b7ff04;
 	margin-bottom: 25px;
 	margin-top: 25px;
 }
@@ -581,22 +581,22 @@ ul {
 	z-index: 5;
 }
 
-.member {
+.social {
 	text-align: center;
 }
 
-.member img {
+.social img {
 	margin-bottom: 60px;
 }
 
-.member h2 {
+.social h2 {
 	font-size: 24px;
 	font-weight: 400;
 	margin-bottom: 20px;
 	color: #fff;
 }
 
-.member h3 {
+.social h3 {
 	font-size: 14px;
 	color: #2be6ab;
 	font-weight: 400;
