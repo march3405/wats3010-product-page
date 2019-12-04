@@ -136,3 +136,37 @@ footer.footer {
     font-style: Helvetica;
     letter-spacing: 2px;
 }
+.testimonials .row {
+    margin-top: 30px;
+}
+.col-lg-4 {
+    margin:40px auto;
+}
+.testimonial-item {
+    padding: 70px 70px 10px;
+    background-color: #efefef;
+}
+
+
+.col-lg-4 img{
+    top:-110px;
+    position: relative;
+    left:calc(50%-60px);
+    border: 8px solid white;
+}
+.img-fluid{
+    width: 120px;
+    height:120px;
+    border-radius: 50%;
+}
+.testimonial-item:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pinter;
+}
+.testimonials h2 {
+    text-align: center;
+    font-weight:bold;
+    color:black;
+    padding-bottom: 10px; 
+    text-transform: uppercase;
+}
