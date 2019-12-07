@@ -1,3 +1,25 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@yeady88 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+0
+0164yeady88/wats3010-product-page
+forked from suwebdev/wats3010-product-page
+ Code Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
+wats3010-product-page/css/bootstrap.min.css
+ Yasmine eady testimonials
+58b2fd1 9 days ago
+Executable File  8299 lines (6844 sloc)  147 KB
+  
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -8295,5 +8317,24 @@ button.close {
         display: none !important
     }
 }
-
-/*# sourceMappingURL=bootstrap.min.css.map */
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }

@@ -1,4 +1,3 @@
-
 html,
 body {
 	height: 100%;
@@ -113,6 +112,7 @@ ul {
     color: white;
     font-weight: 400;
 	float: left;
+	padding-left:20px;
 	
 }
 
@@ -176,6 +176,8 @@ ul {
 /*------------------------
 	Header css
 --------------------------*/
+
+
 .responsive {
 	display: none;
 }
@@ -420,6 +422,7 @@ ul {
 	font-family: "Roboto", sans-serif;
 	font-size: 48px;
 	color: #b7ff04;
+	padding-left:20px;
 }
 
 .testimonial p {
@@ -427,7 +430,8 @@ ul {
     color: #fff;
     font-weight: 100;
     line-height: 30px;
-    font-size: 14px;
+	font-size: 14px;
+	padding: 20px;
 }
 
 .testimonial .avatar {
