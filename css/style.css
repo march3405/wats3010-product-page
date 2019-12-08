@@ -1608,7 +1608,7 @@ footer {
 		margin-bottom: 80px;
 	}
 	.testimonial-section {
-		padding-top: 160px;
+
 	}
 	.member {
 		margin-bottom: 60px;
@@ -1622,6 +1622,7 @@ footer {
 	}
 	.contact-info {
 		margin-bottom: 95px;
+		padding-left:40px;
 	}
 	.col-push {
 		left: 0;
