@@ -177,12 +177,7 @@ ul {
 /*------------------------
 	Header css
 --------------------------*/
-*header{
 
-	font-weight: normal;
-	margin: 0;
-
-}
 
 .responsive {
 	display: none;
@@ -277,7 +272,10 @@ ul {
 --------------------------*/
 .mb-4{
 	padding-left: 26px;
-	width: 125%;
+    padding-right: 26px;
+    text-align: center;
+    line-height: 3em;
+    font-size: 14px;
 }
 
 .section-title-feautured{
@@ -294,7 +292,7 @@ ul {
 	padding: 2.5em 0; }
 	@media (min-width: 768px) {
 	  .site-section {
-		padding: 5em 0; } }
+		padding: 3em 0; } }
 	.site-section.site-section-sm {
 	  padding: 4em 0; }
 
