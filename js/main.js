@@ -32,6 +32,7 @@ function responsive() {
 
 
 
+
 /*------------------
 	Hero Section
 --------------------*/

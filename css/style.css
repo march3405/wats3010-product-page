@@ -173,17 +173,23 @@ ul {
 	text-decoration: none;
 	outline: none;
 }
+
 /*------------------------
 	Header css
 --------------------------*/
+*header{
 
+	font-weight: normal;
+	margin: 0;
+
+}
 
 .responsive {
 	display: none;
 }
 
 .header-section {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -250,15 +256,9 @@ ul {
 	width: 10px;
 	margin-left: -5px;
 }
-.navbar-right{
+.navbar{
 
-	padding-top: 36px;
-	color:black;
-}
-.fas fa-shopping-cart{
-}
-.fas fa-search{
-
+	position:fixed;
 
 }
 
@@ -277,6 +277,18 @@ ul {
 --------------------------*/
 .mb-4{
 	padding-left: 26px;
+	width: 125%;
+}
+
+.section-title-feautured{
+
+	text-align: center;
+	padding-top:30px;
+	
+}
+
+.section-title-feautured span{
+	background-color:white;
 }
 .site-section {
 	padding: 2.5em 0; }
@@ -327,8 +339,6 @@ ul {
 .lab-card img{
     outline: 2px solid black;
     outline-offset: -9px;
-}
-
 }
 
 .lab-card .icon {
@@ -750,6 +760,16 @@ button.contact-btn{
 }
 
 /*------------------------
+	social section
+--------------------------*/
+
+.fab{
+	padding-right:10px;
+
+
+}
+
+/*------------------------
 	Footer section
 --------------------------*/
 .footer-section {
@@ -761,6 +781,23 @@ button.contact-btn{
 	color: black;
 	font-size: 14px;
 	padding: 18px 0;
+}
+
+footer {
+    width: 100%;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+
+}
+
+.flex-container div {
+    padding: 1rem;
+    flex: 1 1 auto;
 }
 
 /*=========================
@@ -1633,6 +1670,7 @@ button.contact-btn{
 @media only screen and (max-width: 479px) {
 	.header-section {
 		padding: 0 20px;
+		
 	}
 	.hero-content {
 		display: none;
